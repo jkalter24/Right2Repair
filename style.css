@@ -263,3 +263,50 @@ ul li a:hover{
 .icons ion-icon:hover{
   color: #4169E1;
 }
+
+.content-box1 {
+  width: 500px;
+  height: auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 0;
+  border-radius: 10px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.content-box1 h1 {
+font-size: 24px;
+color: #4169E1;
+margin-bottom: 10px;
+}
+
+.content-box1 p {
+font-size: 16px;
+color: #000;
+line-height: 1.5;
+}
+
+.content-box2 {
+  width: 500px;
+  height: auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 0;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: -235px; /* Adjust this value as needed */
+}
+
+.content-box2 h1 {
+  font-size: 24px;
+  color: #4169E1;
+  margin-bottom: 10px;
+}
+
+.content-box2 p {
+  font-size: 16px;
+  color: #000;
+  line-height: 1.5;
+}
