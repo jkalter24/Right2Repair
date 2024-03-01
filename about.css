@@ -26,7 +26,7 @@
   .logo{
     color: #4169E1;
     font-size: 35px;
-    font-family: Arial;
+    font-family: Arials;
     padding-left: 20px;
     float: left;
     padding-top: 10px;
@@ -253,6 +253,7 @@
     text-decoration: none;
     color: #fff;
   }
+
   .icons ion-icon{
     color: #fff;
     font-size: 30px;
@@ -314,3 +315,15 @@
     line-height: 1.5;
   }
   
+  .iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
