@@ -1,0 +1,21 @@
+*{
+    margin: 0px !important;
+    padding: 0px !important;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+a{
+    text-decoration: none !important;
+}
+ul{
+    list-style: none;
+}
+#blog{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 50px 0px !important;
+    background-color: #f9f8ff;
+}
+.blog-heading h3{
