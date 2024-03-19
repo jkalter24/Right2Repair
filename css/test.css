@@ -1,0 +1,151 @@
+/*
+  Based on TailwindCSS recommendations,
+  consider using classes instead of the `@apply` directive
+  @see https://tailwindcss.com/docs/reusing-styles#avoiding-premature-abstraction
+*/
+* {
+  @apply m-0 p-0;
+}
+.main {
+  @apply w-full bg-center bg-cover h-screen;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(https://raw.githubusercontent.com/jkalter24/Right2Repair/main/Images/Background.png);
+}
+.navbar {
+  @apply w-[1200px] h-[75px] m-auto;
+}
+.icon {
+  @apply w-[200px] float-left h-[70px];
+}
+.logo {
+  @apply text-[#4169E1] text-[35px] float-left mt-[5px] pl-5 pt-2.5;
+  font-family: Arial;
+}
+.menu {
+  @apply w-[400px] float-left h-[70px];
+}
+ul {
+  @apply float-left flex justify-center items-center;
+}
+ul li {
+  @apply text-sm ml-[62px] mt-[27px];
+  list-style: none;
+}
+ul li a {
+  @apply no-underline text-white font-[bold] transition-[0.4s] duration-[ease-in-out] hover:text-[#4169E1];
+  font-family: Arial;
+}
+.search {
+  @apply w-[330px] float-left ml-[270px];
+}
+.srch {
+  @apply w-[200px] h-10 border text-white text-base float-left mt-[13px] p-2.5 rounded-tl-[5px] rounded-bl-[5px] border-r-[none] border-solid border-[#4169E1];
+  font-family: "Times New Roman";
+  background: transparent;
+}
+.btn {
+  @apply w-[100px] h-10 text-white text-[15px] transition-[0.2s] duration-[ease] cursor-pointer mt-[13px] rounded-br-[5px] border-2 border-solid border-[#4169E1] hover:text-black;
+  background: #4169e1;
+}
+.btn:focus {
+  outline: none;
+}
+.srch:focus {
+  outline: none;
+}
+.content {
+  @apply w-[1200px] h-auto text-white relative m-auto;
+}
+.content .par {
+  @apply tracking-[1.2px] leading-[30px] pl-5 pb-[25px];
+  font-family: Arial;
+}
+.content h1 {
+  @apply text-[50px] tracking-[2px] mt-[9%] pl-5;
+  font-family: "Times New Roman";
+}
+.content .cn {
+  @apply w-40 h-10 text-sm cursor-pointer transition-[0.4s] duration-[ease] ml-5 mb-2.5 rounded-[10px] border-[none];
+  background: #4169e1;
+}
+.content .cn a {
+  @apply no-underline text-black transition-[0.3s] duration-[ease];
+}
+.cn:hover {
+  @apply bg-white;
+}
+.content span {
+  @apply text-[#4169E1] text-[65px];
+}
+.form {
+  @apply w-[250px] h-[380px] absolute translate-x-[0%] translate-y-[-5%] p-[25px] rounded-[10px] left-[870px] -top-5;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 0.8) 50%
+  );
+}
+.form h2 {
+  @apply w-[220px] text-center text-[#4169E1] text-[22px] bg-white m-0.5 p-2 rounded-[10px];
+  font-family: sans-serif;
+}
+.form input {
+  @apply w-60 h-[35px] text-white text-[15px] tracking-[1px] mt-[30px] border-t-[none] border-b-[#4169E1] border-x-[none] border-b border-solid;
+  background: transparent;
+  font-family: sans-serif;
+}
+.form input:focus {
+  outline: none;
+}
+::placeholder {
+  @apply text-white;
+  font-family: Arial;
+}
+.btnn {
+  @apply w-60 h-10 text-lg cursor-pointer text-white transition-[0.4s] duration-[ease] mt-[30px] rounded-[10px] border-[none] hover:text-[#4169E1];
+  background: #4169e1;
+}
+.btnn:hover {
+  background: #fff;
+}
+.btnn a {
+  @apply no-underline text-black font-[bold];
+}
+.form .link {
+  @apply text-[17px] text-center pt-5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form .link a {
+  @apply no-underline text-[#4169E1];
+}
+.liw {
+  @apply text-center pt-[15px] pb-2.5;
+}
+.icons a {
+  @apply no-underline text-white;
+}
+.icons ion-icon {
+  @apply text-white text-3xl transition-[0.3s] duration-[ease] pl-3.5 pt-[5px] hover:text-[#4169E1];
+}
+.content-box1 {
+  @apply w-[500px] h-auto bg-[#f2f2f2] float-left mr-auto m-0 p-5 rounded-[10px];
+}
+.content-box1 h1 {
+  @apply text-2xl text-[#4169E1] text-center mb-2.5;
+}
+.content-box1 p {
+  @apply text-base text-black leading-normal;
+}
+.content-box2 {
+  @apply w-[500px] h-auto bg-[#f2f2f2] float-left ml-5 m-0 p-5 rounded-[10px];
+}
+.content-box2 h1 {
+  @apply text-2xl text-[#4169E1] text-center mb-2.5;
+}
+.content-box2 p {
+  @apply text-base text-black leading-normal;
+}
