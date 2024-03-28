@@ -112,7 +112,7 @@ ul li a:hover{
   outline: none;
 }
 
-.content{
+.content {
   width: 1200px;
   height: auto;
   margin: auto;
@@ -312,4 +312,28 @@ ul li a:hover{
   font-size: 16px;
   color: #000;
   line-height: 1.5;
+}
+
+.video-player {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.video-player video {
+  max-width: 800px;
+  width: 100%;
+}
+
+.video-thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.video-thumbnails img {
+  width: 300px;
+  cursor: pointer;
 }
