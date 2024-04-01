@@ -335,5 +335,10 @@ ul li a:hover{
 
 .video-thumbnails img {
   width: 300px;
+  max-width: 100%;
   cursor: pointer;
+  border: 2px solid white;
+  border-radius: 4px;
+  box-shadow: 0 0 10px white;
+  margin-top: 1.6in;
 }
